@@ -1,0 +1,278 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Verdana, Helvetica, Sans-Serif;
+}
+
+body {
+    font-size: 100%;
+    background: #20150F url(images/background.jpg) no-repeat top left;
+}
+
+a:link,
+a:active,
+a:visited,
+a:hover {
+    color: #8f3030;
+}
+
+a:link,
+a:active {
+    text-decoration: underline;
+}
+
+a:visited {
+    text-decoration: line-through;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p,
+a,
+address,
+cite,
+li {
+    font-size: 0.8em;
+}
+
+p a,
+li a {
+    font-size: 1em;
+}
+
+p {
+    color: #fff;
+    line-height: 20px;
+}
+
+h3 {
+    display: block;
+    text-indent: -90000em;
+    overflow: hidden;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+acronym {
+    cursor: help;
+    border-bottom: 1px dotted #fff;
+}
+
+/* Container */
+#container {
+    width: 974px;
+    margin: 0 auto;
+    padding: 0 0 0 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+#intro h3,
+#supportingText h3 {
+    height: 30px;
+    margin: 15px 0 0;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+#intro p,
+#supportingText p {
+    margin: 0 0 15px;
+}
+
+/* Intro */
+#intro {}
+
+/* Page Header */
+#pageHeader {
+    margin: 124px 0 0 0;
+}
+
+#pageHeader h1,
+#pageHeader h2 {
+    width: 360px;
+    display: block;
+    text-indent: -90000em;
+    overflow: hidden;
+}
+
+#pageHeader h1 {
+    height: 49px;
+    background: url(images/cssZenGarden.png) no-repeat 0 0;
+}
+
+#pageHeader h2 {
+    height: 87px;
+    background: url(images/theBeautyCSSDesign.png) no-repeat 0 0;
+}
+
+/* Quick Summary */
+#quickSummary {}
+
+#quickSummary .p1 {
+    width: 512px;
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+    text-indent: -90000em;
+    overflow: hidden;
+    background: url(images/citation.png) no-repeat 0 0;
+}
+
+#quickSummary .p2 {
+    text-align: center;
+}
+
+/* Pre Amble */
+#preamble {}
+
+#preamble h3 {
+    background-image: url(images/titleTheRoadToEnlightenment.png);
+}
+
+/* Supporting Text */
+#supportingText {
+    width: 580px;
+    float: left;
+    margin: 0 30px 0 0;
+}
+
+/* Explanation */
+#explanation h3 {
+    background-image: url(images/titleSoWhatIsThisAbout.png);
+}
+
+/* Participation */
+#participation h3 {
+    background-image: url(images/titleParticipation.png);
+}
+
+/* Benefits */
+#benefits h3 {
+    background-image: url(images/titleBenefits.png);
+}
+
+/* Requirements */
+#requirements h3 {
+    background-image: url(images/titleRequirements.png);
+}
+
+/* Footer */
+#footer {
+    position: absolute;
+    bottom: 30px;
+    right: 100px;
+}
+
+#footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/* Link List */
+#linkList {
+    width: 275px;
+    float: left;
+    padding: 54px 30px 54px 31px;
+    background: url(images/sidebar-background.png) no-repeat 0 0;
+}
+
+/* List List 2 */
+#linkList2 ul {
+    display: block;
+}
+
+#linkList2 ul li {
+    margin: 0 0 5px;
+    line-height: 20px;
+}
+
+#linkList2 ul li a .accesskey {
+    font-size: 1.1em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* L Select */
+#lselect {
+    margin: 0 0 0 23px;
+}
+
+#lselect h3 {
+    height: 30px;
+    background: url(images/title-selectYourDesign.png) no-repeat 0 0;
+}
+
+#lselect a {
+    width: 100%;
+    display: block;
+    font-weight: bold;
+}
+
+#lselect a.c {
+    display: inline;
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* L Arquives */
+#larchives {
+    padding: 80px 0 0 23px;
+    background: url(images/sidebar-divisor.png) no-repeat 0 10px;
+}
+
+#larchives h3 {
+    height: 30px;
+    background: url(images/title-arquives.png) no-repeat 0 0;
+}
+
+#larchives ul {
+    float: left;
+}
+
+/* L Resources */
+#lresources {
+    clear: both;
+    margin: 0 0 0 23px;
+}
+
+#lresources h3 {
+    width: 100%;
+    float: left;
+    height: 30px;
+    margin-top: 30px;
+    background: url(images/title-resources.png) no-repeat 0 0;
+}
+
+#lresources ul {
+    clear: left;
+}
+
+
+/* PNG Fix */
+#pageHeader h1,
+#pageHeader h2,
+#quickSummary .p1,
+#preamble h3,
+#explanation h3,
+#participation h3,
+#benefits h3,
+#requirements h3,
+#linkList,
+#lselect h3,
+#larchives,
+#larchives h3,
+#lresources h3 {
+    behavior: url(iepngfix.htc);
+}
